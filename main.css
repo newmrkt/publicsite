@@ -24,4 +24,9 @@ img {
 	height: auto;
 }
 
+@media \0screen {
+  img { 
+  	width: auto; /* for ie 8 */
+  }
+}
 
